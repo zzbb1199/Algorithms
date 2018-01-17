@@ -67,7 +67,6 @@ public class Kursal {
 		}
 		@Override
 		public int compareTo(Edge o) {
-			// TODO Auto-generated method stub
 			return this.weight - o.weight;
 		}
 		@Override
