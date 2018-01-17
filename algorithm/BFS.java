@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import javax.lang.model.element.QualifiedNameable;
-
 public class BFS {
 
 	/**
@@ -21,10 +19,10 @@ public class BFS {
 			{0,0,1,1,1,0},
 			};  
 	public static void main(String[] args) {
-		BFS();
+		bfs();
 	}
 
-	private static void BFS() {
+	private static void bfs() {
 		Queue<Integer> queue = new LinkedList<>();
 		boolean[] visted = new boolean[D.length];
 		int[] record = new int[D.length];
