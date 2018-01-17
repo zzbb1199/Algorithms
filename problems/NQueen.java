@@ -3,7 +3,7 @@ package problems;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class NQuene {
+public class NQueen {
 
 	/**
 	 * N皇后问题：使用回溯法解决
