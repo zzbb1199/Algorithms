@@ -20,9 +20,10 @@
 
 ### 2.2 问题分类
 
-| 问题名                                      | 问题描述          |
-| ---------------------------------------- | ------------- |
-| [NQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/NQueen.java) | N皇后问题，采用回溯法解决 |
+| 问题名                                      | 问题描述            |
+| ---------------------------------------- | --------------- |
+| [NQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/NQueen.java) | N皇后问题，采用回溯法解决   |
+| [Knapsack.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/Knapsack.java) | 0-1背包问题，采用回溯法解决 |
 
 #### 2.2.1NQueen
 
