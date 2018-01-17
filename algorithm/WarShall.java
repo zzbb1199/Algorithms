@@ -16,7 +16,7 @@ public class WarShall {
 			{1,0,0,0,1,0},
 			{0,0,0,1,0,0},
 			{0,0,0,0,0,0}
-	}; ; 
+	};  
 	public static void main(String[] args) {
 		outPut(D);
 		//用S表示连通结果
