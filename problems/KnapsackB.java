@@ -2,11 +2,11 @@ package problems;
 
 import java.util.Arrays;
 
-public class Knapsack {
+public class KnapsackB {
 
 	/**
 	 * 0-1背包问题
-	 * 解法1：使用回溯法
+	 * 使用回溯法
 	 */
 	//初始化参数
 	private static int[] w = {2, 2, 6, 5, 4};
