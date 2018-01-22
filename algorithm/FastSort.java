@@ -26,7 +26,7 @@ public class FastSort {
 	 */
 	private static void fastSort(int[] D,int start,int end) {
 		//定义两个指针以及比较点
-		int i = start;
+		int i = start+1;
 		int j = end;
 		int compare  = D[start];
 		while(true) {

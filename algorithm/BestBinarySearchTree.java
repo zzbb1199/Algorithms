@@ -55,6 +55,7 @@ public class BestBinarySearchTree {
 		System.out.println("最小权值:" + mainTable[0][N - 1]);
 
 		// 前序遍历
+		System.out.println("前序遍历:");
 		preOrder(0, N - 1);
 	}
 
@@ -63,7 +64,7 @@ public class BestBinarySearchTree {
 			return;
 		}
 		int k = rootTable[i][j];
-		System.out.println(k);
+		System.out.print(k+" ");
 		preOrder(i, k - 1);
 		preOrder(k + 1, j);
 

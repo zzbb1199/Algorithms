@@ -32,12 +32,15 @@ public class Dijkstra {
 		int current = start;
 		//tree，保存路径
 		int[] tree = new int[cost.length];
+		for(int i = 0;i<tree.length;i++) {
+			tree[i] = start;
+		}
 		while(!hasAllVisted(visted)) {
 			for(int i = 0;i<D.length;i++) {
 				if(visted[i]) {
 					continue;
 				}
-				if(D[start][i] > cost[current] + D[current][i]) {
+				if(cost[i] > cost[current] + D[current][i]) {
 					cost[i] =  cost[current] + D[current][i];
 					tree[i] = current;
 				}
