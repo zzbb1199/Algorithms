@@ -30,7 +30,7 @@
 
 代码中使用的图为：
 
-
+![BFS](https://github.com/zzbb1199/Algorithms/blob/master/picture/BFS%26DFS)
 
 邻接矩阵:
 
@@ -49,7 +49,7 @@
 
 代码中使用的图为：
 
-
+![DFS](https://github.com/zzbb1199/Algorithms/blob/master/picture/BFS%26DFS)
 
 邻接矩阵：
 
@@ -67,7 +67,7 @@
 
 代码中使用的图为：
 
-
+![Dijkstra](https://github.com/zzbb1199/Algorithms/blob/master/picture/Dijkstra%26Floyd%26K%26P)
 
 邻接矩阵：
 
@@ -86,7 +86,7 @@
 
 在代码中使用的图为：
 
-
+![Floyd](https://github.com/zzbb1199/Algorithms/blob/master/picture/Dijkstra%26Floyd%26K%26P)
 
 邻接矩阵:
 
@@ -107,7 +107,7 @@
 
 代码中的图为：
 
-
+![Kursal](https://github.com/zzbb1199/Algorithms/blob/master/picture/Dijkstra%26Floyd%26K%26P)
 
 邻接矩阵:
 
@@ -126,7 +126,7 @@
 
 在代码中使用到的图为：
 
-
+![Prim](https://github.com/zzbb1199/Algorithms/blob/master/picture/Dijkstra%26Floyd%26K%26P)
 
 邻接矩阵：
 
@@ -144,7 +144,7 @@
 
 在代码中使用到的图为：
 
-
+![WarShall](https://github.com/zzbb1199/Algorithms/blob/master/picture/WarShall)
 
 邻接矩阵:
 
