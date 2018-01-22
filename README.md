@@ -17,13 +17,19 @@
 | [Kursal.java](https://github.com/zzbb1199/Algorithms/blob/master/algorithm/Kursal.java) | 最小生成树算法-从边入手  |
 | [Prim.java](https://github.com/zzbb1199/Algorithms/blob/master/algorithm/Prim.java) | 最小生成树算法-从点入手  |
 | [WarShall.java](https://github.com/zzbb1199/Algorithms/blob/master/algorithm/WarShall.java) | 闭包算法-动态规划     |
+| [BackTrack.java](https://github.com/zzbb1199/Algorithms/blob/master/algorithm/BackTrack.java) | 回溯法（0-1背包问题）  |
+| [BestBinarySearchTree.java](https://github.com/zzbb1199/Algorithms/blob/master/algorithm/BestBinarySearchTree.java) | 最优二叉查找树（动态规划） |
+| [Bissearch.java](https://github.com/zzbb1199/Algorithms/blob/master/algorithm/Bissearch.java) | 折半查找          |
+| [MergeSort.java](https://github.com/zzbb1199/Algorithms/blob/master/algorithm/MergeSort.java) | 合并查找（分治法）     |
+| [HaffuManTree.java](https://github.com/zzbb1199/Algorithms/blob/master/algorithm/HaffuManTree.java) | 哈弗曼树及哈弗曼编码    |
 
 ### 2.2 问题分类
 
-| 问题名                                      | 问题描述            |
-| ---------------------------------------- | --------------- |
-| [NQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/NQueen.java) | N皇后问题，采用回溯法解决   |
-| [Knapsack.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/Knapsack.java) | 0-1背包问题，采用回溯法解决 |
+| 问题名                                      | 问题描述           |
+| ---------------------------------------- | -------------- |
+| [NQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/NQueen.java) | N皇后问题，回溯法解决    |
+| [KnapsackB.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackB.java) | 0-1背包问题，回溯法解决  |
+| [KnapsackD.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackD.java) | 0-1背包问题，动态规划解决 |
 
 #### 2.2.1NQueen
 
@@ -34,3 +40,6 @@
 #### 2.2.2 0-1背包问题
 
 > 给定n种物品和一背包。物品i的重量是wi，其价值为vi，背包的容量为C。问应如何选择装入背包的物品，使得装入背包中物品的总价值最大?
+
+常用的方法有：[回溯法](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackB.java),[动态规划](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackD.java)，分支界限法。
+
