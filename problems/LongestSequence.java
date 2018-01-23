@@ -25,7 +25,7 @@ public class LongestSequence {
 	public static void myMothod() {
 		System.out.println("mymethod");
 		long time1 = System.currentTimeMillis();
-		f("abcxyz","xyzabc",0,0);
+		f("abcxyzzzz","xyzabzzzc",0,0);
 		System.out.println("结果:"+bestmax);
 		long time2 = System.currentTimeMillis();
 		System.out.println("耗时："+(time2-time1));
@@ -47,9 +47,7 @@ public class LongestSequence {
 			if(currentStr.length() != bestStr.length()) {//如果两个长度不等，则更新
 				bestmax = currentmax;
 				bestStr = currentStr;
-				if(record.size() != 0) {
-					record.remove(0);
-				}
+				record.clear();
 				record.add(bestStr);
 			}else if(!currentStr.equals(bestStr)) {//如果两个长度相同，但字符串又不相等，
 				record.add(currentStr);
