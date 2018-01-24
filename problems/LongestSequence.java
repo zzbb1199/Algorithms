@@ -25,7 +25,7 @@ public class LongestSequence {
 	public static void myMothod() {
 		System.out.println("mymethod");
 		long time1 = System.currentTimeMillis();
-		f("abcxyzzzz","xyzabzzzc",0,0);
+		f("gfdafagegefeafdsga","adsffagea",0,0);
 		System.out.println("结果:"+bestmax);
 		long time2 = System.currentTimeMillis();
 		System.out.println("耗时："+(time2-time1));
