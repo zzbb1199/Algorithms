@@ -203,6 +203,7 @@
 | [KnapsackD.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackD.java) | 0-1背包问题，动态规划解决 |
 | [KMinSelect.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KMinSelect.java) | 第K小问题          |
 | [LongestSequence.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/LongestSequence.java) | 最长子序列问题        |
+| [LongestSubstring.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/LongestSubstring.java) | 最长公共子串问题       |
 | [HexadecimalConversion.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/HexadecimalConversion.java) | 大数据的16进制转化到8进制 |
 | [SymbolicTriangle.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/SymbolicTriangle.java) | 符号三角形问题        |
 
@@ -224,13 +225,17 @@
 
 #### 2.2.4 最长子序列问题
 
-> 给定两组字符串，求解两个字符串中的最长子序列的长度及该子序列。（注意和最长公共子串的不同）。如“abcdef"和“abdcef”。那么最长子序列的长度为5，为"abcef"和"abdef"。
+> 给定两个字符串，求解两个字符串中的最长子序列的长度及该子序列。（注意和最长公共子串的不同）。如“abcdef"和“abdcef”。那么最长子序列的长度为5，为"abcef"和"abdef"。
 
-#### 2.2.5 大数据中的16进制转换到8进制
+#### 2.2.5 最长公共子串问题
+
+> 给定两个字符串，求解两个字符串中最长的公共子串，注意和最长子序列问题的不同。如“abcefg"和"abegfc"中的最大公共子串为"ab"。
+
+#### 2.2.6 大数据中的16进制转换到8进制
 
 > 输入16进制数转换到8进制。由于数据量很大，不能使用Integer.valueOf()等方法，所以这里采用8421BCD码进行转换。
 
-#### 2.2.6 符号三角形问题
+#### 2.2.7 符号三角形问题
 
 >  在一般情况下，符号三角形的第一行有n个符号。符号三角形问题，要求对于给定的n，计算有多少个不同的符号三角形，使其所含的“+”和“-”相同。
 
