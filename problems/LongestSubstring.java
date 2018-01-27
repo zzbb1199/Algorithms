@@ -1,6 +1,5 @@
 package problems;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -17,10 +16,10 @@ public class LongestSubstring {
 	static StringBuilder currentStr;
 	static List<String> record = new LinkedList<>();
 	public static void main(String[] args) {
-		String str1 = "abcefg";
-		String str2 = "efgabc";
-		for (int i = 0; i < str1.length(); i++) {
-			for(int j = 0;j<str2.length();j++) {
+		String str1 = "abcefg123415341234";
+		String str2 = "efgabc413151231234";
+		for (int i = 0; i < str1.length()-best; i++) {
+			for(int j = 0;j<str2.length()-best;j++) {
 				if(str1.charAt(i) == str2.charAt(j)) {
 					//从该点向后扫描
 					current = 1;
