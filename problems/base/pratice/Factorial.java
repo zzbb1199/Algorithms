@@ -1,6 +1,5 @@
-package problems;
+package problems.base.pratice;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -19,9 +18,8 @@ public class Factorial {
 	static int[] A;
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-//		n = input.nextInt();
+		n = input.nextInt();
 		input.close();
-		n = 1000;
 		int length = 2590;	//给一个尽量大的空间,考虑动态空间会不会更好？？？？
 		A = new int[length];
 		A[0] = 1;
@@ -52,11 +50,6 @@ public class Factorial {
 			result.append(A[i]);
 		}
 		System.out.println(result.reverse());
-		BigInteger big = new BigInteger("2");
-		for(int i = 1;i<=n;i++) {
-			big = big.multiply(new BigInteger(""+i));
-		}
-		System.out.println(big);
 	}
 	
 }

@@ -1,5 +1,6 @@
 package problems;
 
+import java.math.BigInteger;
 import java.util.Arrays;
 
 /**
@@ -10,8 +11,9 @@ import java.util.Arrays;
 public class Test {
 
 	public static void main(String[] args) {
-		int a = '9';
-		System.out.println(a-'0');
+		BigInteger big1 = new BigInteger("20100122201001221234567890");
+		BigInteger big2 = new BigInteger("2010012220100122");
+		System.out.println(big1.add(big2));
 	}
 
 }
