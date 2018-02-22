@@ -1,7 +1,8 @@
 package problems;
 
 import java.math.BigInteger;
-import java.util.Arrays;
+import java.util.Scanner;
+
 
 /**
  * 测试类，写算法过程中，一些不确定的东西可以用来测试
@@ -11,8 +12,12 @@ import java.util.Arrays;
 public class Test {
 
 	public static void main(String[] args) {
-		BigInteger big1 = new BigInteger("20100122201001221234567890");
-		BigInteger big2 = new BigInteger("2010012220100122");
+		Scanner input = new Scanner(System.in);
+		String a = input.nextLine();
+		String b = input.nextLine();
+		input.close();
+		BigInteger big1 = new BigInteger(a);
+		BigInteger big2 = new BigInteger(b);
 		System.out.println(big1.add(big2));
 	}
 

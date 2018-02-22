@@ -206,6 +206,8 @@
 | [LongestSubstring.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/LongestSubstring.java) | 最长公共子串问题       |
 | [HexadecimalConversion.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/HexadecimalConversion.java) | 大数据的16进制转化到8进制 |
 | [SymbolicTriangle.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/SymbolicTriangle.java) | 符号三角形问题        |
+| [Factorial.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/Factorial.java) | 大数阶乘           |
+| [LargeSum.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/LargeSum.java) | 大数相加           |
 
 #### 2.2.1NQueen
 
@@ -239,3 +241,10 @@
 
 >  在一般情况下，符号三角形的第一行有n个符号。符号三角形问题，要求对于给定的n，计算有多少个不同的符号三角形，使其所含的“+”和“-”相同。
 
+#### 2.2.8 大数阶乘
+
+> 计算类似1000！之类的结果，采用数组进位实现
+
+#### 2.2.9 大数相加
+
+> #### 计算100+位的两位相加，采用数组进位实现（对于Java，可以使用大整数类实现）
