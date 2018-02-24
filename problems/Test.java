@@ -12,13 +12,11 @@ import java.util.Scanner;
 public class Test {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		String a = input.nextLine();
-		String b = input.nextLine();
-		input.close();
-		BigInteger big1 = new BigInteger(a);
-		BigInteger big2 = new BigInteger(b);
-		System.out.println(big1.add(big2));
+		String y = "00000727";
+		String x = "0000021b";
+		System.out.println(Integer.valueOf(x,16));
+		System.out.println(Integer.valueOf(y, 16));
+				
 	}
 
 }
