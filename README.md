@@ -199,6 +199,7 @@
 | 问题名                                      | 问题描述           |
 | ---------------------------------------- | -------------- |
 | [NQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/NQueen.java) | N皇后问题，回溯法解决    |
+| [TwoQueen.java                           | 2n皇后问题，回溯法解决   |
 | [KnapsackB.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackB.java) | 0-1背包问题，回溯法解决  |
 | [KnapsackD.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackD.java) | 0-1背包问题，动态规划解决 |
 | [KMinSelect.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KMinSelect.java) | 第K小问题          |
@@ -209,11 +210,24 @@
 | [Factorial.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/Factorial.java) | 大数阶乘           |
 | [LargeSum.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/LargeSum.java) | 大数相加           |
 
-#### 2.2.1NQueen
+#### 2.2.1NQueen & 2NQueen
 
 > 一个ｎ×ｎ的国际象棋棋盘上放置ｎ个皇后，使其不能相互攻击，即任何两个皇后都不能处在棋盘的同一行、同一列、同一条斜线上，试问共有多少种摆法？
 
-常用n=8，解答为92种 
+常用n=8，解答为92种 。
+
+> 　**问题描述**
+>
+> 　给定一个n*n的棋盘，棋盘中有一些位置不能放皇后。现在要向棋盘中放入n个黑皇后和n个白皇后，使任意的两个黑皇后都不在同一行、同一列或同一条对角线上，任意的两个白皇后都不在同一行、同一列或同一条对角线上。问总共有多少种放法？n小于等于8。
+>
+> **输入格式**
+>
+> 　　输入的第一行为一个整数n，表示棋盘的大小。
+> 　　接下来n行，每行n个0或1的整数，如果一个整数为1，表示对应的位置可以放皇后，如果一个整数为0，表示对应的位置不可以放皇后。
+>
+> **输出格式**
+>
+> 　　输出一个整数，表示总共有多少种放法。
 
 #### 2.2.2 0-1背包问题
 
