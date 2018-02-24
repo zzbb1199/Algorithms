@@ -199,7 +199,7 @@
 | 问题名                                      | 问题描述           |
 | ---------------------------------------- | -------------- |
 | [NQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/NQueen.java) | N皇后问题，回溯法解决    |
-| [TwoQueen.java                           | 2n皇后问题，回溯法解决   |
+| [TwoQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/TwoQueen.java) | 2n皇后问题，回溯法解决   |
 | [KnapsackB.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackB.java) | 0-1背包问题，回溯法解决  |
 | [KnapsackD.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackD.java) | 0-1背包问题，动态规划解决 |
 | [KMinSelect.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KMinSelect.java) | 第K小问题          |
