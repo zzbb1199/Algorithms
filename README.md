@@ -196,19 +196,22 @@
 
 ### 2.2 按问题分类
 
-| 问题名                                      | 问题描述           |
-| ---------------------------------------- | -------------- |
-| [NQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/NQueen.java) | N皇后问题，回溯法解决    |
-| [TwoQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/TwoQueen.java) | 2n皇后问题，回溯法解决   |
-| [KnapsackB.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackB.java) | 0-1背包问题，回溯法解决  |
-| [KnapsackD.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackD.java) | 0-1背包问题，动态规划解决 |
-| [KMinSelect.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KMinSelect.java) | 第K小问题          |
-| [LongestSequence.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/LongestSequence.java) | 最长子序列问题        |
-| [LongestSubstring.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/LongestSubstring.java) | 最长公共子串问题       |
-| [HexadecimalConversion.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/HexadecimalConversion.java) | 大数据的16进制转化到8进制 |
-| [SymbolicTriangle.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/SymbolicTriangle.java) | 符号三角形问题        |
-| [Factorial.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/Factorial.java) | 大数阶乘           |
-| [LargeSum.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/LargeSum.java) | 大数相加           |
+| 问题名                                      | 问题描述            |
+| ---------------------------------------- | --------------- |
+| [NQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/NQueen.java) | N皇后问题，回溯法解决     |
+| [TwoQueen.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/TwoQueen.java) | 2n皇后问题，回溯法解决    |
+| [KnapsackB.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackB.java) | 0-1背包问题，回溯法解决   |
+| [KnapsackD.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KnapsackD.java) | 0-1背包问题，动态规划解决  |
+| [KMinSelect.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/KMinSelect.java) | 第K小问题           |
+| [LongestSequence.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/LongestSequence.java) | 最长子序列问题         |
+| [LongestSubstring.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/LongestSubstring.java) | 最长公共子串问题        |
+| [HexadecimalConversion.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/HexadecimalConversion.java) | 大数据的16进制转化到8进制  |
+| [SymbolicTriangle.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/SymbolicTriangle.java) | 符号三角形问题         |
+| [Factorial.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/Factorial.java) | 大数阶乘            |
+| [LargeSum.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/LargeSum.java) | 大数相加            |
+| [NumberRead.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/NumberRead.java) | 读数              |
+| [TimeRead.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/TimeRead.java) | 读时间             |
+| [PalindromeeCorrection.java](https://github.com/zzbb1199/Algorithms/blob/master/problems/base/pratice/PalindromeeCorrection.java) | 使用最小交换次数纠正回文字符串 |
 
 #### 2.2.1NQueen & 2NQueen
 
@@ -262,3 +265,53 @@
 #### 2.2.9 大数相加
 
 > #### 计算100+位的两位相加，采用数组进位实现（对于Java，可以使用大整数类实现）
+
+#### 2.2.10 读数
+
+>  **问题描述**
+> 　　Tom教授正在给研究生讲授一门关于基因的课程，有一件事情让他颇为头疼：一条染色体上有成千上万个碱基对，它们从0开始编号，到几百万，几千万，甚至上亿。
+> 　　比如说，在对学生讲解第1234567009号位置上的碱基时，光看着数字是很难准确的念出来的。
+> 　　所以，他迫切地需要一个系统，然后当他输入12 3456 7009时，会给出相应的念法：
+> 　　十二亿三千四百五十六万七千零九
+> 　　用汉语拼音表示为
+> 　　shi er yi san qian si bai wu shi liu wan qi qian ling jiu
+> 　　这样他只需要照着念就可以了。
+> 　　你的任务是帮他设计这样一个系统：给定一个阿拉伯数字串，你帮他按照中文读写的规范转为汉语拼音字串，相邻的两个音节用一个空格符格开。
+> 　　注意必须严格按照规范，比如说“10010”读作“yi wan ling yi shi”而不是“yi wan ling shi”，“100000”读作“shi wan”而不是“yi shi wan”，“2000”读作“er qian”而不是“liang qian”。
+
+#### 2.2.11 读时间
+
+> **问题描述**
+> 　　给定当前的时间，请用英文的读法将它读出来。
+> 　　时间用时h和分m表示，在英文的读法中，读一个时间的方法是：
+> 　　如果m为0，则将时读出来，然后加上“o'clock”，如3:00读作“three o'clock”。
+> 　　如果m不为0，则将时读出来，然后将分读出来，如5:30读作“five thirty”。
+> 　　时和分的读法使用的是英文数字的读法，其中0~20读作：
+>
+> 　　对于大于20小于60的数字，首先读整十的数，然后再加上个位数。如31首先读30再加1的读法，读作“thirty one”。
+> 　　按上面的规则21:54读作“twenty one fifty four”，9:07读作“nine seven”，0:15读作“zero fifteen”。
+> **输入格式**
+> 　　输入包含两个非负整数h和m，表示时间的时和分。非零的数字前没有前导0。h小于24，m小于60。
+> **输出格式**
+> 　　输出时间时刻的英文。
+
+#### 2.2.12 回文纠正
+
+> **问题描述**
+>
+> 回文串，是一种特殊的字符串，它从左往右读和从右往左读是一样的。小龙龙认为回文串才是完美的。现在给你一个串，它不一定是回文的，请你计算最少的交换次数使得该串变成一个完美的回文串。
+> 　　交换的定义是：交换两个相邻的字符
+> 　　例如mamad
+> 　　第一次交换 ad : mamda
+> 　　第二次交换 md : madma
+> 　　第三次交换 ma : madam (回文！完美！)
+>
+> **输入格式**
+>
+> 　　第一行是一个整数N，表示接下来的字符串的长度(N <= 8000)
+> 　　第二行是一个字符串，长度为N.只包含小写字母
+>
+> **输出格式**
+>
+> 　　如果可能，输出最少的交换次数。
+> 　　否则输出Impossible
