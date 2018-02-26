@@ -27,7 +27,7 @@ public class ChipTest {
 		}
 		input.close();
 	
-		 //step2 按列进行统计
+		 //step1 按列进行统计
 		 int size = origin.length;
 		 int[] s = new int[size];
 		 for(int i = 0;i<size;i++){
@@ -43,7 +43,7 @@ public class ChipTest {
 				 bad.add(i);
 			 }
 		 }
-		 //step4 输出尝试
+		 //step2 输出尝试
 		 //生成全解
 		 List<Integer> solution = new ArrayList<>();
 		 for(int i = 0;i<n;i++) {
@@ -60,5 +60,4 @@ public class ChipTest {
 		}
 		 System.out.println(result.toString().substring(0, result.length()-1));
 	}	
-	
 }
