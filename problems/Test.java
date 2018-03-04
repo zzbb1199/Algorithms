@@ -2,7 +2,10 @@ package problems;
 
 import java.math.BigInteger;
 import java.math.RoundingMode;
+
 import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,13 +18,17 @@ import java.util.regex.Pattern;
  */
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ParseException {
 		double x = 1.245;
 		DecimalFormat df = new DecimalFormat("#.00");
 		df.setRoundingMode(RoundingMode.HALF_EVEN);
 		String reuslt= df.format(x);
 		System.out.println(reuslt);
 		System.out.println(String.format("%.2f", x));
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		java.util.Date date = sdf.parse("2018-03-04");
+		System.out.println(date.toLocaleString());
 
 	}
 

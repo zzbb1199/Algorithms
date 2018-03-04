@@ -38,7 +38,7 @@ public class MassFactorDecomposition {
 		//step1所有素数
 		A.add(2);
 		findAll(b);
-		//step2 采用回溯进行求解
+		//step2 求解
 		for(int i = a;i<=b;i++) {
 			answer.clear();
 			System.out.print(i+"=");
@@ -93,7 +93,7 @@ public class MassFactorDecomposition {
 			answer.remove(answer.size()-1);
 			answer.remove(answer.size()-1);
 			int lastIndex = A.indexOf(last);
-			test(tv,cv,++lastIndex);
+			back(tv,cv,++lastIndex);
 			return;
 		}
 	}
