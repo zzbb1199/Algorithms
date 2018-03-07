@@ -29,7 +29,47 @@ public class Test {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		java.util.Date date = sdf.parse("2018-03-04");
 		System.out.println(date.toLocaleString());
+		
+		int[][] a = {
+				{9,7,2},
+				{1 ,5 ,4},
+				{6 ,3 ,8}
+		};
+		check(a);
 
+	}
+	private static boolean check(int[][] a) {
+		// 计算行
+		int sum = 0;
+		for (int i = 0; i < 3; i++) {
+			sum += a[0][i];
+		}
+		int temp = 0;
+		for (int i = 1; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				temp += a[i][j];
+			}
+			if (sum != temp) {
+				return false;
+			}
+			temp = 0;
+		}
+		// 计算列
+		for (int j = 0; j < 3; j++) {
+			for (int i = 0; i < 3; i++) {
+				temp += a[i][j];
+			}
+			if (sum != temp) {
+				return false;
+			}
+			temp = 0;
+		}
+		// 计算对角线
+		temp = a[0][0] + a[1][1] + a[2][2];
+		if (temp != sum) {
+			return false;
+		}
+		return true;
 	}
 
 }
