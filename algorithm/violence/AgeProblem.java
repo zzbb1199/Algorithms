@@ -10,7 +10,7 @@ import java.util.Set;
  * 
  * @author zxr
  *
- */
+ */s
 public class AgeProblem {
 	public static void main(String[] args) {
 		for (int i = 11; i <=100; i++) {
@@ -28,7 +28,7 @@ public class AgeProblem {
 
 	private static boolean check(String r) {
 		// TODO Auto-generated method stub
-		Set<Character> sets = new HashSet<>();
+		Set<Character> sets = new HashSet<Character>();
 		for(int i = 0;i<r.length();i++) {
 			sets.add(r.charAt(i));
 		}
