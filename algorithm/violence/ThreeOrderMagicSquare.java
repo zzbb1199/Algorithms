@@ -24,6 +24,7 @@ public class ThreeOrderMagicSquare {
 				A[i][j] = input.nextInt();
 			}
 		}
+		input.close();
 		List<int[]> index = findEpty(A);
 		// 找到未用数字
 		List<Integer> sets = new ArrayList<>();
