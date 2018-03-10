@@ -16,60 +16,26 @@ import java.util.regex.Pattern;
  * @author zxr
  *
  */
-public class Test {
-
-	public static void main(String[] args) throws ParseException {
-		double x = 1.245;
-		DecimalFormat df = new DecimalFormat("#.00");
-		df.setRoundingMode(RoundingMode.HALF_EVEN);
-		String reuslt= df.format(x);
-		System.out.println(reuslt);
-		System.out.println(String.format("%.2f", x));
-		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-		java.util.Date date = sdf.parse("2018-03-04");
-		System.out.println(date.toLocaleString());
-		
-		int[][] a = {
-				{9,7,2},
-				{1 ,5 ,4},
-				{6 ,3 ,8}
-		};
-		check(a);
-
-	}
-	private static boolean check(int[][] a) {
-		// 计算行
-		int sum = 0;
-		for (int i = 0; i < 3; i++) {
-			sum += a[0][i];
-		}
-		int temp = 0;
-		for (int i = 1; i < 3; i++) {
-			for (int j = 0; j < 3; j++) {
-				temp += a[i][j];
-			}
-			if (sum != temp) {
-				return false;
-			}
-			temp = 0;
-		}
-		// 计算列
-		for (int j = 0; j < 3; j++) {
-			for (int i = 0; i < 3; i++) {
-				temp += a[i][j];
-			}
-			if (sum != temp) {
-				return false;
-			}
-			temp = 0;
-		}
-		// 计算对角线
-		temp = a[0][0] + a[1][1] + a[2][2];
-		if (temp != sum) {
-			return false;
-		}
-		return true;
-	}
-
-}
+public class Test {    
+    
+    public static void main(String[] args)  
+    {  
+        int[] weight = new int[]{12,2,32,4,52,6,72,82,92,10};  
+        int len = weight.length;  
+        //int t = 0;  
+        int i,a,t;    
+         a=weight[0];  
+         for(i=0;i<(len-1);i++)  
+         {  
+          t=0;  
+          while(weight[i+1] !=0)   
+          { t=weight[i+1];  
+          weight[i+1]=a%weight[i+1];  
+          a=t;  
+          }  
+         }  
+         System.out.println(a);  
+    }  
+      
+      
+}    

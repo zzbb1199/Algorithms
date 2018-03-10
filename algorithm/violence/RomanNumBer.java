@@ -12,8 +12,8 @@ import java.util.Scanner;
  *
  */
 public class RomanNumBer {
-	static Map<Character, Integer> map = new HashMap<>();
-	static Map<Character,Integer> type = new HashMap<>();
+	static Map<Character, Integer> map = new HashMap<Character,Integer>();
+	static Map<Character,Integer> type = new HashMap<Character,Integer>();
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);

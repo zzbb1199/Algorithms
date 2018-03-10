@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class ThreeOrderMagicSquare {
 
-	static List<int[]> as = new ArrayList<>();
+	static List<int[]> as = new ArrayList<int[]>();
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,10 +24,9 @@ public class ThreeOrderMagicSquare {
 				A[i][j] = input.nextInt();
 			}
 		}
-		input.close();
 		List<int[]> index = findEpty(A);
 		// 找到未用数字
-		List<Integer> sets = new ArrayList<>();
+		List<Integer> sets = new ArrayList<Integer>();
 		sets.add(1);
 		sets.add(2);
 		sets.add(3);
@@ -121,7 +120,7 @@ public class ThreeOrderMagicSquare {
 
 	private static List<int[]> findEpty(int[][] a) {
 		// TODO Auto-generated method stub
-		List<int[]> index = new ArrayList<>();
+		List<int[]> index = new ArrayList<int[]>();
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
 				if (a[i][j] == 0) {
@@ -186,3 +185,4 @@ public class ThreeOrderMagicSquare {
 	}
 
 }
+
