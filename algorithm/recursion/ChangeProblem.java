@@ -22,7 +22,7 @@ public class ChangeProblem {
 		input.close();
 		range = m;	//区间为0-m
 		current = new int[n];
-		visted = new boolean[m+1];
+		visted = new boolean[range+1];
 		deep(0);
 		//生成新解
 		float[] a = new float[2*m+1];
@@ -101,7 +101,7 @@ public class ChangeProblem {
 			}
 			return;
 		}
-		for(int j = 0;j<range;j++) {
+		for(int j = 0;j<=range;j++) {
 			if(!visted[j]) {
 				visted[j] = true;
 				current[i] = j;
