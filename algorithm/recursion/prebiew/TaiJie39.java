@@ -1,4 +1,4 @@
-package algorithm.recursion;
+package algorithm.recursion.prebiew;
 /**
  * 39台阶
  * @author zxr

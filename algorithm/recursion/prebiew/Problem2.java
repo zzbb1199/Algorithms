@@ -1,4 +1,4 @@
-package algorithm.recursion;
+package algorithm.recursion.prebiew;
 /**
  * 
 小明参加了学校的趣味运动会，其中的一个项目是：跳格子。

@@ -1,4 +1,4 @@
-package algorithm.recursion;
+package algorithm.recursion.prebiew;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -59,7 +59,7 @@ public class Problem4 {
 					k++;
 				}
 			}
-			if(sum != 9) {
+			if(sum != 110) {
 				iter.remove();
 			}else {
 				System.out.println(fomular);

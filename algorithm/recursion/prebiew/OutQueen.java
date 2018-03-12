@@ -1,4 +1,4 @@
-package algorithm.recursion;
+package algorithm.recursion.prebiew;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,7 +17,7 @@ import java.util.List;
  *
  */
 public class OutQueen {
-	static int num = 16;
+	static int num = 5;
 	static int[] current = new int[num];
 	static List<int[]> answer = new ArrayList<>();
 
@@ -71,13 +71,13 @@ public class OutQueen {
 		for (int i = 0; i < answer.size(); i++) {
 			int[] c = answer.get(i);
 			boolean match = true;
-			for(int j = 0;j<num;j++) {
-				if(c[j] != current[j]) {
+			for (int j = 0; j < num; j++) {
+				if (c[j] != current[j]) {
 					match = false;
 					break;
 				}
 			}
-			if(match) {
+			if (match) {
 				return false;
 			}
 		}
