@@ -29,7 +29,7 @@ public class DaJiMu {
 			if(!visted[j]) {
 				visted[j] = true;
 				d[layer][count] = j;
-				/****************这里其实可以考虑剪枝，不过为了做题，时间第一啦********************/
+				/****************这里其实可以考虑剪枝，不过为了做题，解出题的时间第一啦********************/
 				if(count+1 <= layer) {
 					deep(layer,count+1);
 				}else {
