@@ -1,7 +1,5 @@
 package algorithm.math;
 
-import java.util.Arrays;
-
 /**
  * 扩展欧几里得
  * @author zxr
@@ -21,7 +19,6 @@ public class ExpandOJLiDe {
 		return gcd(b,a%b);
 	}
 	/**
-	 * 扩展欧几里得定理，求解最大公约数的同时，求解不定方程的一个特解
 	 * @param a
 	 * @param b
 	 * @param xy
