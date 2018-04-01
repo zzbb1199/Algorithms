@@ -1,6 +1,9 @@
 package problems;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 /**
  * 测试类，写算法过程中，一些不确定的东西可以用来测试
  * 
@@ -8,6 +11,7 @@ package problems;
  *
  */
 public class Test {
+<<<<<<< HEAD
 	
 	public static void main(String[] args) {
 		f(0,0);
@@ -34,4 +38,11 @@ public class Test {
 			f(x,y);
 		}
 	}
+=======
+
+	public static void main(String[] args) {
+		System.out.println(Integer.toString(80,3));
+	}
+
+>>>>>>> master
 }
