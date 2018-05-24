@@ -1,5 +1,4 @@
-package zhenti2015;
-
+package 蓝桥杯官方.真题.省赛题.zhenti2015;
 import java.util.Random;
 
 public class Problem6 {
