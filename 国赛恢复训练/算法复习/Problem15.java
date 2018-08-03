@@ -1,7 +1,7 @@
 package 国赛恢复训练.算法复习;
 /**
  * 尼姆堆 博弈论
- * @author 张兴锐
+ * @author Raven
  * 先手是否能赢
  */
 public class Problem15 {

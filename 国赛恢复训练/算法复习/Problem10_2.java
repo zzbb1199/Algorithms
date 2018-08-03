@@ -7,7 +7,7 @@ import com.sun.xml.internal.bind.v2.model.util.ArrayInfoUtil;
 
 /**
  * 筛选法求解素数
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem10_2 {

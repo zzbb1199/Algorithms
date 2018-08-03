@@ -1,7 +1,7 @@
 package 国赛恢复训练.算法复习;
 /**
  * 线段树
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem20 {
@@ -17,7 +17,7 @@ public class Problem20 {
 	}
 	/**
 	 * 建树
-	 * @author 张兴锐
+	 * @author Raven
 	 *
 	 */
 	static void build(int id,int l,int r) {

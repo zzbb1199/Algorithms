@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * 
- * @author 张兴锐
+ * @author Raven
  * 
  */
 public class ThreeOrderMagicCubeRotation {
@@ -145,7 +145,7 @@ public class ThreeOrderMagicCubeRotation {
 	/**
 	 * 魔方面
 	 * 
-	 * @author 张兴锐
+	 * @author Raven
 	 * 
 	 */
 	static class MagicArea {

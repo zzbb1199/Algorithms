@@ -1,7 +1,7 @@
 package 国赛恢复训练.算法复习;
 /**
  * 蓝桥杯 裁纸问题
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem5 {

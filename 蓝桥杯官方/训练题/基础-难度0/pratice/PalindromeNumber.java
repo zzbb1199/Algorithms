@@ -3,7 +3,7 @@ package problems.base.pratice;
 /**
  * 求所有四位回文数
  * 
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class PalindromeNumber {

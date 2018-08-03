@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * 随机算法求解
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem6_3 {

@@ -6,7 +6,7 @@ import java.util.Set;
 
 /**
  * 重复字母的组合问题
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem4 {

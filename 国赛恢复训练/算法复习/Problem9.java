@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 /**
  * 无损失有理数计算
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem9 {

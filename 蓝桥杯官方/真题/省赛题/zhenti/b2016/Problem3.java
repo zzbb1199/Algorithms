@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 /**
  * 高精度问题，采用BigDecimal无法解决
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem3 {

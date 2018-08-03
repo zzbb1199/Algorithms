@@ -1,5 +1,7 @@
 package 蓝桥杯官方.国赛.真题2015;
-
+/**
+ * DFS 不一定对吧。试试BFS
+ */
 import java.util.Arrays;
 import java.util.Scanner;
 

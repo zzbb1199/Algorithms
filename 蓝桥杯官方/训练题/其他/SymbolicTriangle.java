@@ -5,7 +5,7 @@ import java.util.Scanner;
  * 符号三角形
  * 符号三角形输入n，共n行，所有个数共n*(n+1)/2
  * 基于上述特点，可以设计剪枝函数，当某种符号超过总量的一半时即不用在继续向下深入了
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class SymbolicTriangle {

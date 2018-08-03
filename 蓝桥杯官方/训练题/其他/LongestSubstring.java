@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 最长公共子串
  * 给定两个字符串，找出两个字符串的最长公共子串
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class LongestSubstring {

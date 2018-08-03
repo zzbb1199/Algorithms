@@ -1,7 +1,7 @@
 package 国赛恢复训练.省赛2015;
 /**
  * 递归遍历，太耗时间
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem6 {

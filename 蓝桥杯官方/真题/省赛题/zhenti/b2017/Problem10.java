@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * k区间
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem10 {

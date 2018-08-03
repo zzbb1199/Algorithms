@@ -6,7 +6,7 @@ import java.util.Set;
 
 /**
  * 树形dp
- * @author 张兴锐
+ * @author Raven
  * 没有上司的舞会
  */
 public class Problem18 {

@@ -1,7 +1,7 @@
 package 国赛恢复训练.算法复习;
 /**
  * 博弈论暴力破解
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem12 {

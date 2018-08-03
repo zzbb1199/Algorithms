@@ -1,7 +1,7 @@
 package 国赛恢复训练.省赛2015;
 /**
  * 循环解法
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem6_2 {

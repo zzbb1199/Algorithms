@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * 模拟退火 求解sin(x)的最小值
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem16 {

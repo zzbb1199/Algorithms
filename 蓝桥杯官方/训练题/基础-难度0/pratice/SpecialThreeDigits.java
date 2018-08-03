@@ -1,7 +1,7 @@
 package problems.base.pratice;
 /**
  * 特殊三位數
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class SpecialThreeDigits {

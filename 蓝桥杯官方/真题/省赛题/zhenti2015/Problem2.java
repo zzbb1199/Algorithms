@@ -13,7 +13,7 @@ package zhenti.b2015;
 
 请填写该数字，不要填写任何多余的内容或说明性的文字。
 
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem2 {

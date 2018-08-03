@@ -6,7 +6,7 @@ package 蓝桥杯官方.真题.决赛题.b2017;
 36进制中，A表示10，Z表示35，AA表示370
 你能算出 MANY 表示的数字用10进制表示是多少吗?
 请提交一个整数，不要填写任何多余的内容（比如，说明文字）
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem1 {

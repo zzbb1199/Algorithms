@@ -1,7 +1,7 @@
 package 国赛恢复训练.算法复习;
 /**
  * 树形dp，生命之树
- * @author 张兴锐
+ * @author Raven
  *
  */
 

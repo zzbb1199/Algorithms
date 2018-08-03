@@ -30,7 +30,7 @@ BZZ
 
 我们约定，输入的整数范围[1,2147483647]
 
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem13 {

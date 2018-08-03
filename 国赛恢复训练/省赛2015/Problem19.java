@@ -2,7 +2,7 @@ package 国赛恢复训练.省赛2015;
 
 /**
  * 线段树
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem19 {
@@ -19,7 +19,7 @@ public class Problem19 {
 	}
 	/**
 	 * 建树操作
-	 * @author 张兴锐
+	 * @author Raven
 	 *
 	 */
 	static void build(int c,int l,int r) {
@@ -42,7 +42,7 @@ public class Problem19 {
 	}
 	/**
 	 * 更新操作
-	 * @author 张兴锐
+	 * @author Raven
 	 *
 	 */
 	static void update(int id,int val,int c) {
@@ -61,7 +61,7 @@ public class Problem19 {
 	}
 	/**
 	 * 查询操作
-	 * @author 张兴锐
+	 * @author Raven
 	 *
 	 */
 	static int query_sum(int l,int r,int c) {
@@ -79,7 +79,7 @@ public class Problem19 {
 	}
 	/**
 	 * 
-	 * @author 张兴锐
+	 * @author Raven
 	 *
 	 */
 	static int query_max(int l,int r,int c) {

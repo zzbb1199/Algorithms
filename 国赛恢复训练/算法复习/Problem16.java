@@ -8,7 +8,7 @@ import java.util.Stack;
 /**
  * 任意给定4个数，能否生成24点,通过+ - * /
  * 
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem16 {

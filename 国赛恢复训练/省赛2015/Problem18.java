@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 哈夫曼编码
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem18 {

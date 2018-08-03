@@ -1,7 +1,7 @@
 package problem.zhenti.b2016;
 /**
  * 简单的数列问题
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem1 {

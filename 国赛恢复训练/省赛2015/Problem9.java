@@ -9,7 +9,7 @@ import java.util.Scanner;
 /**
  * 递归求解，最多满足60%测试
  * 30%数据通过
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem9 {

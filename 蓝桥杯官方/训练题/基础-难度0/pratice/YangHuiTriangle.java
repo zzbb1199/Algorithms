@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 楊輝三角形
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class YangHuiTriangle {

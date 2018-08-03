@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 全排列
- * @author 张兴锐
+ * @author Raven
  *
  */
 public class Problem3 {
